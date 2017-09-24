@@ -27,8 +27,8 @@ else{
 
 <!-- SIDE BAR  -->
 <div id="sideBar" style="height:165px; width:210px; margin:100px 0px 0px 0px; padding: 0px 0px 0px 0px;">
-<img src="sideBarIcon.png" id="SBIcon" style="cursor:pointer; position:fixed; display:block; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; background-color:#d9d9d9;  
-  opacity:.5;"> 
+<img src="sideBarIcon.png" id="SBIcon" style="cursor:pointer; position:fixed; display:block; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; background-color:#d9d9d9;
+  opacity:.5;">
 
 <ul id="links" align="right" style="display:inline; margin: 0px 0px 0px 75px; padding: 0px 0px 0px 0px; z-index:5;">
 <li><a href="harris.html" target="_self">Home</a></li>
@@ -44,7 +44,7 @@ else{
 
 
 <!-- HEADER -->
-<h2 id="mainHeader">Muhammad Harris</h2> 
+<h2 id="mainHeader">Muhammad Harris</h2>
 
 <!-- HEADER -->
 
@@ -77,10 +77,10 @@ else{
 <!-- SUBTITLES : 'EDUCATION' -->
 <div id="div2">
 <h1  id="EducationH2">Education</h1>
-<p id="parag2">  
+<p id="parag2">
       B.S. in Computer Science&nbsp&nbsp&nbsp&nbsp&nbsp<br>
-      University Of Maryland      [2014-2016]&nbsp&nbsp&nbsp&nbsp&nbsp<br> 
-      Towson University           [2016-Present]&nbsp&nbsp&nbsp&nbsp&nbsp<br>           
+      University Of Maryland      [2014-2016]&nbsp&nbsp&nbsp&nbsp&nbsp<br>
+      Towson University           [2016-Present]&nbsp&nbsp&nbsp&nbsp&nbsp<br>
  </p>
  </div>
 
@@ -88,8 +88,8 @@ else{
 <!--  SUBTITLES : 'HOBBIES'  -->
 <div id="div3">
 <h1 id="CodeH1" >Hobbies</h1>
-<p id="parag3" > My hobbies include playing basketball, <br> lifting, 
-      reading novels, and eating burgers. </p> 
+<p id="parag3" > My hobbies include playing basketball, <br> lifting,
+      reading novels, and eating burgers. </p>
 </div>
 
 
@@ -107,10 +107,10 @@ else{
     <b>Last Name:</b> <br><br>
     <input type="text" name="Last Name"><br><br>
     <textarea style="height:150px; width:200px; color:grey; " placeholder="Please include a short description of your inquiry."></textarea><br>
-    
+
     <input type="submit">
-  
-</form> 
+
+</form>
 
 </div>
 
@@ -143,7 +143,7 @@ else{
 
 
 
-</body> 
+</body>
 
 
 
@@ -160,78 +160,78 @@ $(document).ready(function(){
 
     $("#HobbiesH1").click(
     	function(){
-    		$("#parag1").slideDown(); 
+    		$("#parag1").slideDown();
     });
 
     $("#div1").mouseleave(
     	function(){
-    		$("#parag1").slideUp(); 
+    		$("#parag1").slideUp();
     });
 
  });
 
 
 
-$(document).ready(function(){
+$(function(){
 
 	$('#parag2').hide();
-    
+
     $("#EducationH2").click(
     	function(){
-    		$("#parag2").slideDown(); 
+    		$("#parag2").slideDown();
     });
 
     $("#div2").mouseleave(
     	function(){
-    		$("#parag2").slideUp(); 
+    		$("#parag2").slideUp();
     });
 
  });
 
 
 
-$(document).ready(function(){
+$(function(){
 
 	$('#parag3').hide();
-    
+
     $("#CodeH1").click(
     	function(){
-    		$("#parag3").slideDown(); 
+    		$("#parag3").slideDown();
     });
 
     $("#div3").mouseleave(
     	function(){
-    		$("#parag3").slideUp(); 
+    		$("#parag3").slideUp();
     });
 
  });
 
 
-$(document).ready(function(){
+$(function(){
 
     $('#links').hide();
-    
+
     $("#SBIcon").click(
         function(){
-            $("#links").fadeIn(); 
+            $("#links").fadeIn();
     });
 
     $("#sideBar").mouseleave(
         function(){
-            $("#links").fadeOut(); 
+            $("#links").fadeOut();
     });
 
  });
 
 
 
-$(document).ready(function(){
+$(function(){
 
     $('#form1').hide();
-    
+
     $("#ContactMe").click(
         function(){
-            $("#form1").slideDown(); 
+            $("#form1").slideDown();
     });
 
  });
