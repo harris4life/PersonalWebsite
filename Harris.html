@@ -1,0 +1,237 @@
+<!Doctype html>
+<html>
+
+<head>
+<script src="jquery-3.2.1.js"> </script>
+<link rel="stylesheet" href="CSS_Harris.css">
+
+<title> MHarris Personal Website </title>
+</head>
+
+
+
+
+
+
+
+
+<!-- SIDE BAR  -->
+<div id="sideBar" style="height:165px; width:210px; margin:100px 0px 0px 0px; padding: 0px 0px 0px 0px;">
+<img src="sideBarIcon.png" id="SBIcon" style="cursor:pointer; position:fixed; display:block; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; background-color:#d9d9d9;
+  opacity:.5;">
+
+<ul id="links" align="right" style="display:inline; margin: 0px 0px 0px 75px; padding: 0px 0px 0px 0px; z-index:5;">
+<li><a href="harris.html" target="_self">Home</a></li>
+<li><a href="portfolio.html" target="_blank">Projects</a></li>
+<li><a href="About Me.html" target="_blank">About Me</a></li>
+</ul>
+</div>
+<!-- SIDE BAR -->
+
+
+
+
+
+
+<!-- HEADER -->
+<h2>Muhammad Harris</h2>
+<!-- HEADER -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="subtitles">
+
+
+
+<!-- SUBTITLES : 'CODE' -->
+<div id="div1" align="left">
+<h1  id="HobbiesH1">Code</h1>
+<p id="parag1">  Languages: Java, Swift, C++, JavaScript. <br> Web Tech: HTML, CSS <br> Other Technologies: Jquery, React.js, Node,js, Eclipse <br> JGrasp,   </p>
+</div>
+
+
+<!-- SUBTITLES : 'EDUCATION' -->
+<div id="div2">
+<h1  id="EducationH2">Education</h1>
+<p id="parag2">
+      B.S. in Computer Science&nbsp&nbsp&nbsp&nbsp&nbsp<br>
+      University Of Maryland      [2014-2016]&nbsp&nbsp&nbsp&nbsp&nbsp<br>
+      Towson University           [2016-Present]&nbsp&nbsp&nbsp&nbsp&nbsp<br>
+ </p>
+ </div>
+
+
+<!--  SUBTITLES : 'HOBBIES'  -->
+<div id="div3">
+<h1 id="CodeH1" >Hobbies</h1>
+<p id="parag3" > My hobbies include playing basketball, <br> lifting,
+      reading novels, and eating burgers. </p>
+</div>
+
+
+
+<!--  SUBTITLES : 'CONTACT ME'  -->
+<div id="div4">
+<h1  id="ContactMe">Contact Me</h1>
+
+
+
+<!-- CONTACT FORM -->
+<form id="form1" align="left" style="margin-left:40px; color: skyblue; text-align:center;" method="post" action="mailto:harris_4life@yahoo.com">
+   <b> First Name: </b><br><br>
+    <input type="text" name="First Name"><br><br>
+    <b>Last Name:</b> <br><br>
+    <input type="text" name="Last Name"><br><br>
+    <textarea style="height:150px; width:200px; color:grey; " placeholder="Please include a short description of your inquiry."></textarea><br>
+
+    <input type="submit">
+
+</form>
+
+</div>
+
+</p>
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+<!-- Write your comments here -->
+<script>
+
+$(document).ready(function(){
+
+
+     $('#parag1').hide();
+
+    $("#HobbiesH1").click(
+    	function(){
+    		$("#parag1").slideDown();
+    });
+
+    $("#div1").mouseleave(
+    	function(){
+    		$("#parag1").slideUp(); 
+    });
+
+ });
+
+
+
+$(document).ready(function(){
+
+	$('#parag2').hide();
+
+    $("#EducationH2").click(
+    	function(){
+    		$("#parag2").slideDown();
+    });
+
+    $("#div2").mouseleave(
+    	function(){
+    		$("#parag2").slideUp();
+    });
+
+ });
+
+
+
+$(document).ready(function(){
+
+	$('#parag3').hide();
+
+    $("#CodeH1").click(
+    	function(){
+    		$("#parag3").slideDown();
+    });
+
+    $("#div3").mouseleave(
+    	function(){
+    		$("#parag3").slideUp();
+    });
+
+ });
+
+
+$(document).ready(function(){
+
+    $('#links').hide();
+
+    $("#SBIcon").click(
+        function(){
+            $("#links").fadeIn();
+    });
+
+    $("#sideBar").mouseleave(
+        function(){
+            $("#links").fadeOut();
+    });
+
+ });
+
+
+
+$(document).ready(function(){
+
+    $('#form1').hide();
+
+    $("#ContactMe").click(
+        function(){
+            $("#form1").slideDown();
+    });
+
+ });
+
+</script>
+
+
+
+
+
+
+
+
+</html>

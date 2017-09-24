@@ -1,0 +1,172 @@
+
+
+
+.subtitles div{
+background-color: none;
+border-color: white;
+}
+
+
+body {
+    background-image: url("background4.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+
+
+#div1 {
+	padding:0px 0px 0px 0px;
+	margin:0 0 300px 60px;
+	width:40%;
+	height:300px;
+	position: absolute;
+	float:right;
+}
+
+#HobbiesH1 {
+	color:salmon;
+	cursor: pointer;
+	font-size:300%;
+	text-shadow:2px 2px black;
+	font-family:courier;
+	margin-left: 60px;
+
+}
+
+#parag1{
+
+	color:#ECEEFB;
+	font-size:175%;
+	font-style: bold;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#div2{
+
+	padding:0px 0px 0px 0px;
+	float: right;
+	width:40%;
+	height:350px;
+	margin: 150px 60px 0 0;
+
+}
+
+
+#EducationH2{
+	cursor: pointer;
+	color:skyblue;
+	font-size:300%;
+	font-family:courier;
+	text-shadow:2px 2px black;
+	margin-right: 10px;
+	text-align:center;
+
+}
+
+
+
+
+#parag2{
+
+	text-align:center;
+	color:whiteSmoke;
+	font-size:175%;
+	font-style: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#div3{
+padding:0px 0px 0px 0px;
+	float: left;
+	width:40%;
+	height:350px;
+	margin: 350px  0 0 60px;
+
+}
+
+#CodeH1{
+
+	color:salmon;
+	cursor: pointer;
+	font-size:300%;
+	font-family:courier;
+	text-shadow:2px 2px black;
+	margin-left: 60px;
+
+}
+
+
+#parag3{
+
+	color:#ECEEFB;
+	font-size:175%;
+	text-align:middle;
+	font-style: bold;
+
+}
+
+
+
+
+
+
+#div4{
+padding:0px 0px 0px 0px;
+	float: right;
+	width:40%;
+	height:480px;
+	margin: 70px 60px 0 0;
+
+}
+
+#ContactMe{
+
+	color:salmon;
+	cursor: pointer;
+	font-size:300%;
+	font-family:courier;
+	text-shadow:2px 2px black;
+	margin-left: 60px;
+	text-align: center;
+	color:skyblue;
+
+
+}
+
+
+#parag4{
+
+	color:#ECEEFB;
+	font-size:175%;
+	margin-left:80px;
+	text-align:middle;
+	font-style: bold;
+
+}

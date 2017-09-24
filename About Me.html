@@ -1,0 +1,89 @@
+<!Doctype html>
+<html>
+
+<head>
+<title> About Me </title>
+<script src="jquery-3.2.1.js"> </script>
+
+<link rel="stylesheet" href="CSS_Harris.css">
+</head>
+
+<body style="background-image:url(background5.jpeg); background-size:120%; background-repeat: no-repeat; background-attachment: fixed;"> 
+
+
+
+
+
+
+<div id="sideBar">
+<img src="sideBarIcon.png" id="SBIcon" style="width:100; height:20; cursor:pointer; margin-top:60px; padding-top:0px; position:fixed; display:inline;"> 
+<ul id="links" align="right" style="display:inline; margin-left:75px; margin-top:0px;   ">
+<li><a href="harris.html" target="_self">Home</a></li>
+<li><a href="portfolio.html" target="_blank">Projects</a></li>
+<li><a href="About Me.html" target="_blank">About Me</a></li>
+</ul>
+</div>
+
+
+
+
+
+<h2 style="display:block; font-family:papyrus; text-shadow: 2px 2px black; margin:80px 0px 0px 0px; padding:0px 0px 20px 0px; ">		 <i> About Me </i> </h1>
+
+
+<div style="height: 500px; width:1000px; background-color:black; display:block; margin: 0px 0px 0px 400px;   "> 
+<p style="color: white; padding:20px 20px 20px 20px; font-size:160%;text-align:center;    "> hello. my name is muhammad harris. i'm currently an undergraduate computer science major at Towson University. the purpose of this personal site is to showcase my personal projects i've created in interested of securing an internship, co-op, or full time position. java is the first language i have learned, however i've had exposure to several others as noted on the homepage / on my resume. 
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+$(document).ready(function(){
+
+    $('#links').hide();
+    
+    $("#SBIcon").click(
+        function(){
+            $("#links").fadeIn(); 
+    });
+
+    $("#sideBar").mouseleave(
+        function(){
+            $("#links").fadeOut(); 
+    });
+
+ });
+
+</script>
+
+
+</html>
