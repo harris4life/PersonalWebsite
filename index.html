@@ -7,15 +7,6 @@
 
 <title> MHarris Personal Website </title>
 
-<script>
-if(window.scrollY == 0){
-mainHeader.style.visibility = 'visible';
-}
-else{
-    mainHeader.style.visibility = 'hidden';
-
-}
-</script>
 </head>
 
 
@@ -26,11 +17,10 @@ else{
 
 
 <!-- SIDE BAR  -->
-<div id="sideBar" style="height:165px; width:210px; margin:100px 0px 0px 0px; padding: 0px 0px 0px 0px;">
-<img src="sideBarIcon.png" id="SBIcon" style="cursor:pointer; position:fixed; display:block; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; background-color:#d9d9d9;
-  opacity:.5;">
+<div id="sideBar">
+<img src="sideBarIcon.png" id="SBIcon">
 
-<ul id="links" align="right" style="display:inline; margin: 0px 0px 0px 75px; padding: 0px 0px 0px 0px; z-index:5;">
+<ul id="links" align="right">
 <li><a href="harris.html" target="_self">Home</a></li>
 <li><a href="portfolio.html" target="_blank">Projects</a></li>
 <li><a href="About Me.html" target="_blank">About Me</a></li>
@@ -45,12 +35,15 @@ else{
 
 <!-- HEADER -->
 <h2 id="mainHeader">Muhammad Harris</h2>
-
 <!-- HEADER -->
 
 
 
 
+<!-- downArrow -->
+<div id="downArrowDiv" align="center">
+<img src="downArrowBig.png" id="downArrow" >
+</div>
 
 
 
@@ -63,7 +56,8 @@ else{
 
 
 
-<div class="subtitles">
+
+<div class="subtitles" id="subtitlesDiv">
 
 
 
@@ -101,7 +95,7 @@ else{
 
 
 <!-- CONTACT FORM -->
-<form id="form1" align="left" style="margin-left:40px; color: skyblue; text-align:center;" method="post" action="mailto:harris_4life@yahoo.com">
+<form id="form1" align="left" method="post" action="mailto:harris_4life@yahoo.com">
    <b> First Name: </b><br><br>
     <input type="text" name="First Name"><br><br>
     <b>Last Name:</b> <br><br>
@@ -115,8 +109,6 @@ else{
 </div>
 
 </p>
-
-
 
 
 </div>
@@ -150,7 +142,7 @@ else{
 
 
 
-<!-- Write your comments here -->
+<!-- Jquery / Animations for Subtitles/SideBar -->
 <script>
 
 $(document).ready(function(){

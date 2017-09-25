@@ -2,6 +2,11 @@
 @import "mainSubtitles.css";
 
 
+*{
+  border-style: solid;
+  border-color: white;
+
+}
 
 body {
 background-color: #1D222D;
@@ -9,7 +14,7 @@ background-color: #1D222D;
 }
 
 
-h2{
+#mainHeader{
 
 display:inline-block;
 text-align:center;
@@ -17,17 +22,58 @@ color: azure;
 font-family : papyrus;
 font-size: 110px;
 text-shadow: 2px 2px black;
+border-color:blue;
 
 
 display:block;
 padding: 25px 0px 25px 0px ;
-margin: 0px 0px 450px 0px; text-shadow:4px 4px black;
+margin: 0px 0px 0px 0px; text-shadow:4px 4px black;
+
 
 }
 
 #header{
 
 }
+
+
+
+#sideBar{
+  height:165px;
+  width:210px;
+   margin:200px 0px 200px 0px;
+   padding: 0px 0px 0px 0px;
+   border-style: solid;
+   border-color: white;
+   position:fixed;
+   z-index: 1;
+}
+
+#links{
+  display:inline; margin: 0px 0px 0px 75px; padding: 0px 0px 0px 0px; z-index:1
+
+}
+
+
+#form1{
+  margin-left:40px; color: skyblue; text-align:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ul {
@@ -41,7 +87,7 @@ ul {
     margin-left: 70px;
     padding-left:10px;
     text-decoration: none;
-    border-style: solid;
+    border-style: none;
     border-color:#black;
     opacity:.8;
 
@@ -66,9 +112,18 @@ width: 100px;
 
 }
 
-img {
+#SBIcon {
     float: left;
     margin: 0 0 10px 10px;
+    border-style: none;
+    border-color:white;
+    cursor:pointer;
+    position:fixed;
+    display:block;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color:#d9d9d9;
+    opacity:.5;
 }
 
 
@@ -79,6 +134,19 @@ li a{
 
 display: block;
 color: black;
+}
 
 
+
+
+#downArrowDiv{
+  margin-bottom:280px;
+  margin-right:80px;
+  border-style: none;
+  border-color: white;
+  height:100px;
+}
+#downArrow{
+  border-style: none;
+  border-color: white;
 }

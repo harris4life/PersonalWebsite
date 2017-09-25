@@ -1,9 +1,10 @@
 
 
 
-.subtitles div{
-background-color: none;
+#subtitlesDiv{
+border-style: none;
 border-color: white;
+height: 1200px;
 }
 
 
