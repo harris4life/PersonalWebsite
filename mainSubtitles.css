@@ -1,18 +1,28 @@
 
 
 
-.subtitles div{
-background-color: none;
-border-color: white;
+
+
+#subtitlesDiv{
+  height:40%;
+  border-style: none;
+  border-color:white;
 }
 
 
-body {
-    background-image: url("background4.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -7,30 +7,23 @@
 
 <title> MHarris Personal Website </title>
 
-<script>
-if(window.scrollY == 0){
-mainHeader.style.visibility = 'visible';
-}
-else{
-    mainHeader.style.visibility = 'hidden';
 
-}
-</script>
 </head>
 
 
 
+
+<div id="firstHalfOfPage" >
 
 
 
 
 
 <!-- SIDE BAR  -->
-<div id="sideBar" style="height:165px; width:210px; margin:100px 0px 0px 0px; padding: 0px 0px 0px 0px;">
-<img src="sideBarIcon.png" id="SBIcon" style="cursor:pointer; position:fixed; display:block; margin: 0px 0px 0px 0px; padding: 0px 0px 0px 0px; background-color:#d9d9d9;
-  opacity:.5;">
+<div id="sideBarDiv">
+<img src="sideBarIcon.png" id="SBIcon">
 
-<ul id="links" align="right" style="display:inline; margin: 0px 0px 0px 75px; padding: 0px 0px 0px 0px; z-index:5;">
+<ul id="links" align="right">
 <li><a href="harris.html" target="_self">Home</a></li>
 <li><a href="portfolio.html" target="_blank">Projects</a></li>
 <li><a href="About Me.html" target="_blank">About Me</a></li>
@@ -50,6 +43,15 @@ else{
 
 
 
+<!-- downArrow -->
+<div id="downArrowDiv">
+<img src="downArrow.png" id="downArrow" align="middle">
+</div>
+
+
+
+
+</div>
 
 
 
@@ -63,7 +65,17 @@ else{
 
 
 
-<div class="subtitles">
+
+
+
+
+
+
+
+
+
+
+<div id="subtitlesDiv">
 
 
 
@@ -111,14 +123,6 @@ else{
     <input type="submit">
 
 </form>
-
-</div>
-
-</p>
-
-
-
-
 </div>
 
 
@@ -126,18 +130,6 @@ else{
 
 
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -216,7 +208,7 @@ $(function(){
             $("#links").fadeIn();
     });
 
-    $("#sideBar").mouseleave(
+    $("#sideBarDiv").mouseleave(
         function(){
             $("#links").fadeOut();
     });
