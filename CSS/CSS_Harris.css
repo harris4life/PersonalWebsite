@@ -4,7 +4,7 @@
 
 
 body, html {
-    background-image: url("background4.jpg");
+    background-image: url("../Images/background4.jpg");
     background-color: #1D222D;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -13,7 +13,6 @@ body, html {
     width: 100%;
     border-style: none;
     border-color:white;
-
 }
 
 
@@ -83,7 +82,7 @@ border-color:green;
   padding: 0px 0px 0px 0px;
   border-style: none;
   border-color:red;
-  z-index: 10; 
+  z-index: 10;
   position:fixed;
 }
 
