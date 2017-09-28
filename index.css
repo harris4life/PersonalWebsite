@@ -1,10 +1,10 @@
 
-@import "mainSubtitles.css";
+@import "CSS/mainSubtitles.css";
 
 
 
 body, html {
-    background-image: url("../Images/background4.jpg");
+    background-image: url("Images/background4.jpg");
     background-color: #1D222D;
     background-repeat: no-repeat;
     background-attachment: fixed;

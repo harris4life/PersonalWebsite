@@ -33,6 +33,7 @@
 	height:300px;
 	position: absolute;
 	float:right;
+  z-index: 9; 
 }
 
 #HobbiesH1 {
@@ -47,7 +48,7 @@
 
 #parag1{
 
-	color:#ECEEFB;
+	color:#FFFFFF;
 	font-size:175%;
 	font-style: bold;
 
@@ -93,7 +94,7 @@
 #parag2{
 
 	text-align:center;
-	color:whiteSmoke;
+	color:#FFFFFF;
 	font-size:175%;
 	font-style: bold;
 }
@@ -135,7 +136,7 @@ padding:0px 0px 0px 0px;
 
 #parag3{
 
-	color:#ECEEFB;
+	color:#FFFFFF;
 	font-size:175%;
 	text-align:middle;
 	font-style: bold;
@@ -173,7 +174,7 @@ padding:0px 0px 0px 0px;
 
 #parag4{
 
-	color:#ECEEFB;
+	color:#FFFFFF;
 	font-size:175%;
 	margin-left:80px;
 	text-align:middle;
