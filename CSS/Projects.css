@@ -39,7 +39,7 @@ body{
   border-style: none;
   border-color: red;
   height:60%;
-  padding-left:20%; 
+  padding-left:20%;
 
 }
 
@@ -51,9 +51,15 @@ body{
 
 
 #githubHeader{
-  color:#BFC3C4;
+  color:#364548;
   background-color: #427D92;
   display: inline;
+}
+
+#githubLink{
+  color: #364548; 
+  text-decoration: none;
+  display:inline;
 }
 
 #pomoIMG1{
