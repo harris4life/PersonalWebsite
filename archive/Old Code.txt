@@ -1,0 +1,30 @@
+OLD CODE
+
+
+
+
+//***Links to other webpages (in white text)
+
+<p style="text-align:right;color:whiteSmoke;" >  
+      Coding Projects&nbsp&nbsp&nbsp&nbsp&nbsp<br>
+      Recommended Tutorials&nbsp&nbsp&nbsp&nbsp&nbsp<br>
+      Pictures&nbsp&nbsp&nbsp&nbsp&nbsp<br>
+      Motivation&nbsp&nbsp&nbsp&nbsp&nbsp<br>
+ </p>
+
+****//
+
+
+
+
+//*** Picture of Me Code
+<img src="me.jpg" alt="picture of me" align="right"; style="width:250px;height:250px;" >
+******//
+
+
+
+
+
+
+
+
