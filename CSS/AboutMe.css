@@ -46,7 +46,9 @@ body{
 
 
 #mainParagraph{
-color: white; padding:20px 20px 20px 20px; font-size:160%;text-align:center;
+color: #A5A5A6; 
+padding:20px 20px 20px 20px;
+font-size:160%;text-align:center;
 margin:auto;
 border-style: none;
 border-color: red;

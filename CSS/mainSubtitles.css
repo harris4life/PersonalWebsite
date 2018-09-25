@@ -33,7 +33,7 @@
 	height:300px;
 	position: absolute;
 	float:right;
-  z-index: 10; 
+  z-index: 10;
 }
 
 #HobbiesH1 {
@@ -51,6 +51,7 @@
 	color:#FFFFFF;
 	font-size:175%;
 	font-style: bold;
+  overflow: scroll;
 
 
 }
